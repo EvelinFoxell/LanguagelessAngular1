@@ -4,14 +4,27 @@
 		<title>Hello frameless</title>
 		<script type="text/javascript" src="./js/angular.min.js"></script>
 		<script type="text/javascript" src="./js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
 	</head>
 	<body ng-app="myModule" ng-controller="myController">
-		<h1>Hello world!</h1>
-		<div >
-			<strong:>Name:</strong> {{ developer.name }}<br>
-			<strong:>Name:</strong> {{ developer.surname }}<br>
-			<strong:>Age:</strong> {{ developer.age }}<br>
-			<strong:>Github:</strong> <a ng-href="{{ developer.github }}">{{ developer.github }}</a><br>
+		<div id="menuwrapper">
+
 		</div>
+		
+		<div id="content">
+			<h1>Hello World!</h1>
+
+			<p>
+				Hello and welcome to {{ developer.name }} {{ developer.surname }}'s first Angular1<br>
+				application!
+			</p>
+
+			<p>
+				This application serves the purpose of displaying how angular <br>
+				is a stand-alone framework that's easy to use regardless of <br>
+				what language stack you're usually working with.<br>
+			</p>
+		</div>
+		<div id="footer"></div>
 	</body>
 </html>
