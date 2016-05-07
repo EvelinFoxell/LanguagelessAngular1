@@ -6,22 +6,58 @@ body, html {
 }
 
 ul.menu {
+	position: relative;
 	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 1em;
+	height: 100%;
+	display: inline-block;
 }
 
 ul.menu li {
+	position: relative;
 	display: inline-block;
-	float: left;
+	height: 100%;
+
+}
+
+ul.menu a {
+	position: relative;
+	height: 100%;
+	text-decoration: none;
+	color: #BA8C2D;
+	display: inline-block;
+	padding: 0 0.5em 0 0.5em;
+}
+
+ul.menu a:hover {
+	box-shadow: inset 0 -0.1em 0 0 #BA8C2D;
 }
 
 #menuwrapper {
+	position: relative;
 	width: 100%;
 	display: block;
 	height: 4em;
 	border-bottom: 1px solid #dddddd;
-	border-top: 0.5em solid #BA8C2D;
+	border-top: 0.3em solid #BA8C2D;
 	padding: 0;
 	margin: 0;
+}
+
+#content {
+	padding: 0 1em;
+}
+
+.menu-container {
+	position: relative;
+	height: 100%;
+}
+
+.button {
+	margin-top: 2em;
+	display: inline-block;
 }
 
 .title {
@@ -40,13 +76,13 @@ ul.menu li {
 .icon-wrapper {
 	display: inline-block;
 	border-radius: 0.3em;
-	position: relative;
 	border: 1px solid #dddddd;
 	width: 2em;
 	height: 2em;
-	float: right;
 	padding: 0.2em;
-	margin-right: 2em;
+	position: absolute;
+	bottom: 0.7em;
+	right: 1em;
 }
 
 .icon {
