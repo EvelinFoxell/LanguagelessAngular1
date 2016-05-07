@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello frameless</title>
+		<script type="text/javascript" src="./js/angular.min.js"></script>
+		<script type="text/javascript" src="./js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body ng-app="myModule" ng-controller="myController">
+		<h2>About me:</h2>
+
+		<div class="title">Name:</div>
+		<div class="content">{{ developer.name }}</div><br>
+		<div class="title">Surname:</div>
+		<div class="content">{{ developer.surname }}</div><br>
+		<div class="title">Age:</div>
+		<div class="content">{{ developer.age }}</div><br>
+		<div class="title">Gender:</div>
+		<div class="content">{{ agenderRoll }}</div><br>
+		<div class="title">Github:</div>
+		<div class="content"><a ng-href="{{ developer.github }}">{{ developer.github }}</a></div><br>
+	</body>
+</html>
