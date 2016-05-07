@@ -6,10 +6,10 @@ is completely language stack independent.
 
 ## Technologies:
 
-Angular.JS 1
-HTML5
-CSS3
-JavaScript
+* Angular.JS 1
+* HTML5
+* CSS3
+* JavaScript
 
 ## How to set up:
 
@@ -20,3 +20,8 @@ ex. `C:/Users/User/Code` if you're on windows or `~/Code` if your on a *nix syst
 	git clone https://github.com/EvelinFoxell/LanguagelessAngular1.git
 
 Right-click the index.html file in project root and open it with a browser of your choice.
+
+
+### View the site
+
+You can view the site online through gh-pages at this link: http://evelinfoxell.github.io/LanguagelessAngular1/
