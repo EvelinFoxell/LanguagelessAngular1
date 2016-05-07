@@ -1,0 +1,12 @@
+.title {
+	font-weight: bold;
+	text-align: right;
+	margin-right: 1em;
+	float:left;
+	width: 7em;
+}
+
+.content {
+	display: block;
+	float: left;
+}
