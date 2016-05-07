@@ -8,17 +8,29 @@
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 	</head>
 	<body ng-app="myModule" ng-controller="myController">
-		<h2>About me:</h2>
+		<div id="menuwrapper">
+			<div class="menu-container">
+				<ul class="menu">
+					<li><a href="./index.html"><div class="button">Home</div></a></li>
+					<li><a href="./about.html" class="active-a"><div class="button">About</div></a></li>
+				</ul>
+			</div>
+			<div class="icon-wrapper"><img src="./img/Designer_small.png" class="icon"></div>
+		</div>
 
-		<div class="title">Name:</div>
-		<div class="content">{{ developer.name }}</div><br>
-		<div class="title">Surname:</div>
-		<div class="content">{{ developer.surname }}</div><br>
-		<div class="title">Age:</div>
-		<div class="content">{{ developer.age }}</div><br>
-		<div class="title">Gender:</div>
-		<div class="content">{{ agenderRoll }}</div><br>
-		<div class="title">Github:</div>
-		<div class="content"><a ng-href="{{ developer.github }}">{{ developer.github }}</a></div><br>
+		<div id="content">
+			<h2>About me:</h2>
+
+			<div class="title">Name:</div>
+			<div class="content">{{ developer.name }}</div><br>
+			<div class="title">Surname:</div>
+			<div class="content">{{ developer.surname }}</div><br>
+			<div class="title">Age:</div>
+			<div class="content">{{ developer.age }}</div><br>
+			<div class="title">Gender:</div>
+			<div class="content">{{ agenderRoll }}</div><br>
+			<div class="title">Github:</div>
+			<div class="content"><a ng-href="{{ developer.github }}">{{ developer.github }}</a></div><br>
+		</div>
 	</body>
 </html>

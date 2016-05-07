@@ -31,7 +31,7 @@ ul.menu a {
 	padding: 0 0.5em 0 0.5em;
 }
 
-ul.menu a:hover {
+ul.menu a:hover, .active-a {
 	box-shadow: inset 0 -0.1em 0 0 #BA8C2D;
 }
 
@@ -65,7 +65,7 @@ ul.menu a:hover {
 	text-align: right;
 	margin-right: 1em;
 	float:left;
-	width: 7em;
+	width: 5em;
 }
 
 .content {
